@@ -1,0 +1,117 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Inter, sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #f8fafc;
+}
+
+.forms{
+    width: 444px;
+    height: 454px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.p1{
+
+    font-family: Inter, sans-serif;
+    font-weight:400;
+    font-Size:14px;
+    line-height:17.57px;
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: -10px;
+}
+
+.p2{
+font-family: Inter, sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(51, 51, 51, 1);
+}
+
+
+input{
+ Width:352px;
+ height: 45px;
+ border-radius:3px;
+ border: none;
+ margin-top: 2px;
+outline:none;
+border: 1px solid #dedede;
+
+}
+
+button{
+ color: rgba(255, 255, 255, 1);   
+ Width:356px;
+ height: 45px;
+ background-color: rgba(98, 91, 247, 1);
+ font-family: Inter, sans-serif;
+ font-weight: 700;
+ border: 1px solid black;
+ line-height:18px;
+ font-size: 16px;
+border: 1px solid transparent;
+border-radius: 3px;
+}
+
+button:hover{
+cursor:pointer;
+}
+
+
+
+.forgot{
+font-family: Inter, sans-serif;
+font-Weight:700;
+font-Size:13px;
+line-height:15.06px;
+color:rgba(98, 91, 247, 1);
+text-align: center;
+margin-top: 10px;
+}
+
+.forgot:hover{
+    cursor: pointer;
+}
+
+.signup{
+font-weight: 400;
+font-style: Mulish;
+margin-top: 15px;
+}
+
+.signup a{
+font-weight: 400;
+font-style: Mulish;
+color: rgba(98, 91, 247, 1);
+text-decoration:none;
+}
+
+
+
+
+
